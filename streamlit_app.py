@@ -31,7 +31,7 @@ df = pd.DataFrame({
     "x": x,
     "y": y,
     "idx": indices,
-    "rand": np.random.randn(num_points),
+    "rand": np.random.ran(num_points),
 })
 
 st.altair_chart(alt.Chart(df, height=700, width=700)
